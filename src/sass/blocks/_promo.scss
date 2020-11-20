@@ -1,0 +1,46 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background-color: black;
+    padding-top: 205px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &__title {
+        width: 535px;
+        margin-top: 10px;
+    }
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        @include before_circle;
+    }
+    &__btns {
+        width: 250px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link {
+        color: white;
+        font-weight: bold;
+        &:hover {
+            color: white;
+            text-decoration: none;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: 120px;
+        right: 220px;
+        img {
+            width: 500px;
+            height: 500px;
+            border-radius: 100%;
+            animation: animation-shadow-color 2s infinite;
+            &:hover {
+                animation: animation-shadow-color-red 1s infinite;
+            }
+        }
+    }
+}

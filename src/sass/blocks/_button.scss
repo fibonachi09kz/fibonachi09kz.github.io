@@ -1,0 +1,10 @@
+.btn {
+    height: 45px;
+    background: $main-color;
+    padding: 12px 25px;
+    animation: animation-shadow 1s infinite;
+    transition: 0.5s all;
+    &:hover {
+        background: #000655;
+    }
+}

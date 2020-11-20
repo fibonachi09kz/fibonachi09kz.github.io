@@ -1,0 +1,38 @@
+.reviews {
+    padding-bottom: 71px;
+    &__list {
+        margin-top: 70px;
+        hr {
+            margin-top: 48px;
+            margin-bottom: 53px;
+            border-bottom: none;
+        }
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        img {
+            margin-right: 62px;
+        }
+    }
+    &__name {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+    }
+    &__count {
+        margin-bottom: 19px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        line-height: 18px;
+    }
+}
